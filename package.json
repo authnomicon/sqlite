@@ -30,12 +30,16 @@
   ],
   "assembly": {
     "namespace": "org.authnomicon/sqlite",
-    "components": []
+    "components": [
+      "clientdirectory"
+    ]
   },
   "directories": {
     "com": "com"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  },
   "devDependencies": {
     "chai": "^4.3.4",
     "make-node": "^0.3.0",

@@ -3,7 +3,7 @@
 var expect = require('chai').expect;
 
 
-describe('@authnomicon/prompts', function() {
+describe('@authnomicon/sqlite', function() {
   
   describe('package.json', function() {
     var json = require('../package.json');
