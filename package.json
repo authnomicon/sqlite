@@ -31,14 +31,18 @@
   "assembly": {
     "namespace": "org.authnomicon/sqlite",
     "components": [
-      "clientdirectory"
+      "userdirectory",
+      "clientdirectory",
+      "credentials/passwordstore"
     ]
   },
   "directories": {
     "com": "com"
   },
   "dependencies": {
-    "sqlite3": "^5.1.6"
+    "@phc/pbkdf2": "^1.1.14",
+    "sqlite3": "^5.1.6",
+    "uuidv7": "^0.6.3"
   },
   "devDependencies": {
     "chai": "^4.3.4",
