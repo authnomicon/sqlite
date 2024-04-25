@@ -1,6 +1,4 @@
-var Directory = require('../lib/userdirectory');
-
-// TODO: rename file to just "directory"
+var Directory = require('../lib/directory');
 
 exports = module.exports = function(db) {
   return new Directory(db);

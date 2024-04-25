@@ -31,8 +31,8 @@
   "assembly": {
     "namespace": "org.authnomicon/sqlite",
     "components": [
-      "userdirectory",
       "clientdirectory",
+      "directory",
       "credentials/passwordstore"
     ]
   },
