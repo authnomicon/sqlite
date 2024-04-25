@@ -10,7 +10,7 @@ describe('credentials/passwordstore', function() {
     expect(factory['@implements']).to.equal('module:@authnomicon/credentials.PasswordStore');
   });
   
-  it.only('should create account with password', function(done) {
+  it('should create account with username and password', function(done) {
     var db = new Object();
     db.run = sinon.stub().yieldsAsync(null);
     
