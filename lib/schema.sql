@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS user (
+CREATE TABLE IF NOT EXISTS users (
   user_id TEXT PRIMARY KEY,
   username TEXT UNIQUE,
   hashed_password TEXT,
